@@ -1,0 +1,14 @@
+
+# Project files #
+######################
+node_modules
+*.sketch
+*.log
+*.map
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db

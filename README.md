@@ -7,11 +7,11 @@ First thing first. Download the file as a zip or clone it on your pc in WP theme
 
 Next make your systems has installed followings:
 
-1. Node with NPM (Updated)
-2. Git
-3. Gulp
-4. Sass
-5. Compass (Optional)
+- Node with NPM (Updated)
+- Git
+- Gulp
+- Sass
+- Compass (Optional)
 
 Now locate the "Twenty Fifteen With Gulp" theme directory and write the following code.
 ```JavaScript

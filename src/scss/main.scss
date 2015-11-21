@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic);
+
+@import 'normalize';
+
+
+/*--------------------------------------
+base
+---------------------------------------*/
+html {
+    box-sizing: border-box;
+    font-family: "Open-Sans", sans-serif;
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::-moz-selection {
+    background: #3B903B;
+    text-shadow: none;
+    color: #fff;
+}
+
+::selection {
+    background: #3B903B;
+    text-shadow: none;
+    color: #fff;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/*---------------base style---------------*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+}
+.mainwrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #eee;
+}
+/*---------------base style---------------*/
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+//header style
+.header{
+    padding: 30px 70px 50px;
+    text-align: center;
+    background: #F5F5F5;
+}
+.logo_container h1 img{
+    vertical-align: top;
+}
+.logo_container h1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 8px 0 0 20px;
+}
+nav ul{
+    background: #ABABAB;
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+    li{
+        display: inline-block;
+    }
+    li a{
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+    li.current_page_item a{
+            background: #1F1F1F;
+            color: #fff;
+    }
+}
+
+
+// home page content area
+.content-area{
+    padding: 40px 40px;
+}
+.site-main article{
+    background-color: #fff;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.27);
+    margin-bottom: 40px;
+    h2{
+        margin: 0px;
+    }
+    h2 a{
+        color: #1F1F1F;
+        margin: 0px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .entry-footer a{
+        color: #D03838;
+    }
+}
+
+
+// footer style
+footer.mainfoot{
+    background: #000;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+    a{
+        color: #D03838;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+

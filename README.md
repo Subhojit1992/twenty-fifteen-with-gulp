@@ -1,5 +1,7 @@
-# Twenty Fifteen With Gulp
+# WordPress Twenty Fifteen Theme With Gulp
 This theme based on Twenty Fifteen code base. With style and UI changes. This is integrated with Gulp. Gulp will take care all the scss, js and images file to make a production ready minified code. So will no need for any worry.
+
+!['stache](https://raw.githubusercontent.com/Subhojit1992/twenty-fifteen-with-gulp/master/screenshot.png)
 
 ## How to use this theme for your next project.
 

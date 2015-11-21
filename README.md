@@ -6,6 +6,7 @@ This theme based on Twenty Fifteen code base. With style and UI changes. This is
 First thing first. Download the file as a zip or clone it on your pc in WP theme folder and open the command line tool and detected that directory. I will suggest to using Git-Bash, Power-Shell or Cmder for your command line tool.
 
 Next make your systems has installed followings:
+
 1. Node with NPM (Updated)
 2. Git
 3. Gulp
